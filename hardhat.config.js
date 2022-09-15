@@ -1,5 +1,6 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-etherscan");
+require("./tasks/block-number");
 require("dotenv").config();
 
 const GOERLI_URL_RPC = process.env.URL_RPC;
