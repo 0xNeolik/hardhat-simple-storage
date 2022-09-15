@@ -18,6 +18,7 @@
   "homepage": "https://github.com/0xNeolik/hardhat-simple-storage#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
     "chai": "^4.3.6",
     "dotenv": "^16.0.2",
     "ethers": "^5.7.1",

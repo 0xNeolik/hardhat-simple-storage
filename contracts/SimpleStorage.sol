@@ -14,12 +14,6 @@ contract SimpleStorage {
 
     People[] public people;
 
-    // bool hasFavoriteNumber = true;
-    // string favoriteNumberString = "Five";
-    // int256 favoriteInt = -5;
-    // address myAddress = 0xa8EC796eE75B04af1223445c587588181CEb56CD;
-    // bytes32 favoritesBytes = "cat";
-
     function store(uint256 _favoriteNumber) public virtual {
         favoriteNumber = _favoriteNumber;
     }
@@ -33,5 +27,3 @@ contract SimpleStorage {
         return favoriteNumber;
     }
 }
-
-// contract address 0xd9145CCE52D386f254917e481eB44e9943F39138
